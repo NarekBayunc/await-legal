@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Await Support</title>
+  <meta name="description" content="Support page for the Await mobile app.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0f1020;
+      --card: rgba(255, 255, 255, 0.08);
+      --text: #f5f5f7;
+      --muted: #b7b7c7;
+      --border: rgba(255, 255, 255, 0.14);
+      --link: #4CC9F0;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f7f7fb;
+        --card: #ffffff;
+        --text: #151521;
+        --muted: #5c5c6b;
+        --border: rgba(0, 0, 0, 0.08);
+        --link: #5a189a;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(123, 44, 191, 0.22), transparent 34%),
+        radial-gradient(circle at top right, rgba(76, 201, 240, 0.16), transparent 30%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 20px;
+    }
+    article {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 36px;
+      box-shadow: 0 18px 60px rgba(0, 0, 0, 0.14);
+      backdrop-filter: blur(12px);
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.1;
+    }
+    h2 {
+      margin-top: 34px;
+      margin-bottom: 10px;
+      font-size: 1.25rem;
+    }
+    p { margin: 0 0 16px; }
+    ul {
+      padding-left: 22px;
+      margin-top: 8px;
+      margin-bottom: 18px;
+    }
+    li { margin-bottom: 8px; }
+    a {
+      color: var(--link);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a:hover { text-decoration: underline; }
+    .updated {
+      color: var(--muted);
+      margin-bottom: 28px;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 18px;
+      color: var(--muted);
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #7B2CBF, #4CC9F0);
+      display: inline-block;
+    }
+    .contact-card {
+      margin-top: 13px;
+      padding: 10px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.06);
+    }
+    footer {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 0.95rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <div class="brand"><span class="dot"></span><span>Await</span></div>
+      <h1>Await Support</h1>
+      <p class="updated">Last updated: 31.05.2026</p>
+
+      <p>If you need help with Await, have a question, or want to report a problem, you can contact us using the details below.</p>
+
+      <div class="contact-card">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:development.narek@gmail.com">development.narek@gmail.com</a></p>
+        <p>Telegram: <a href="https://t.me/Akairoooo">https://t.me/Akairoooo</a></p>
+      </div>
+
+      <h2>When reporting an issue</h2>
+      <p>To help us understand the problem faster, please include:</p>
+      <ul>
+        <li>Your device model</li>
+        <li>Your Android or iOS version</li>
+        <li>The Await app version</li>
+        <li>A short description of what happened</li>
+        <li>Screenshots or screen recordings, if they help explain the issue</li>
+      </ul>
+
+      <h2>Privacy Policy</h2>
+      <p>You can read Await's Privacy Policy here: <a href="privacy-policy.html">Privacy Policy</a>.</p>
+    </article>
+    <footer>© 2026 Await. All rights reserved.</footer>
+  </main>
+</body>
+</html>
